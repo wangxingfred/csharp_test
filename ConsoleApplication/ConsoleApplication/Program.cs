@@ -12,7 +12,8 @@ namespace ConsoleApplication
         {
             ITest[] tests =
             {
-                new Dictionary.PricedCachePool_Test()
+                //new Dictionary.PricedCachePool_Test()
+                new Inherit.InheritConstructor()
             };
 
 
@@ -20,6 +21,8 @@ namespace ConsoleApplication
             {
                 t.Run();
             }
+
+
         }
     }
 }
